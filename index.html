@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form id="location-form">
+      <input
+        type="text"
+        name="location"
+        id="location"
+        placeholder="Search city"
+      />
+    </form>
+    <div class="container">
+      <div class="general-info">
+        <p id="condition"></p>
+        <h1 id="loc"></h1>
+      </div>
+      <div class="details-container">
+        <div id="temp"></div>
+        <div class="weather-details">
+          <p id="feels-like"></p>
+          <p id="wind"></p>
+          <p id="humidity"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
